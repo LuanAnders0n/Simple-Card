@@ -39,7 +39,7 @@ export const Container = styled.div`
 
   .card {
     margin: 20px;
-    width: 750px;
+    width: 550px;
     height: 190px;
     background-color: #171f31;
     border-radius: 29px;
