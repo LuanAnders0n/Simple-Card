@@ -9,27 +9,29 @@ const Home = () => {
   return (
     <div>
       <Container>
-        <div className="img-card">
-          <img className="img" src={perfil} alt="" />
+        <div className="back">
+          <div className="img-card">
+            <img className="img" src={perfil} alt="" />
+          </div>
+          <a href="https://www.linkedin.com/in/luananders0n/">
+            <button className="card">
+              <img className="icons" src={Linkedin} alt="" />
+              <h1>LINKEDIN</h1>
+            </button>
+          </a>
+          <a href="https://github.com/LuanAnders0n">
+            <button className="card">
+              <img className="icons" src={GitHub} alt="" />
+              <h1>GITHUB</h1>
+            </button>
+          </a>
+          <a href="https://www.instagram.com/luan_white/">
+            <button className="card">
+              <img className="icons" src={Instagram} alt="" />
+              <h1>INSTAGRAM</h1>
+            </button>
+          </a>
         </div>
-        <a href="https://www.linkedin.com/in/luananders0n/">
-          <button className="card">
-            <img className="icons" src={Linkedin} alt="" />
-            <h1>LINKEDIN</h1>
-          </button>
-        </a>
-        <a href="https://github.com/LuanAnders0n">
-          <button className="card">
-            <img className="icons" src={GitHub} alt="" />
-            <h1>GITHUB</h1>
-          </button>
-        </a>
-        <a href="https://www.instagram.com/luan_white/">
-          <button className="card">
-            <img className="icons" src={Instagram} alt="" />
-            <h1>INSTAGRAM</h1>
-          </button>
-        </a>
       </Container>
     </div>
   );
