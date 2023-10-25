@@ -17,9 +17,9 @@ export const Container = styled.div`
   }
 
   .img-card {
-    margin: 20px;
-    width: 300px;
-    height: 300px;
+    margin: 10px;
+    width: 130px;
+    height: 130px;
     border-radius: 100%;
     background-color: #171f31;
     background: #c4c4c5;
@@ -28,22 +28,22 @@ export const Container = styled.div`
   }
 
   .img {
-    width: 300px;
-    height: 300px;
+    width: 130px;
+    height: 130px;
     border-radius: 100%;
     border: 3px solid #fff;
   }
 
   .icons {
-    width: 100px;
-    height: 100px;
+    width: 35px;
+    height: 35px;
     float: left;
   }
 
   .card {
     margin: 20px;
-    width: 550px;
-    height: 190px;
+    width: 250px;
+    height: 100px;
     background-color: #171f31;
     border-radius: 29px;
     background: #1c2435;
