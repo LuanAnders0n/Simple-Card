@@ -25,7 +25,7 @@ const Home = () => {
               <h1>GITHUB</h1>
             </button>
           </a>
-          <a href="https://www.instagram.com/luan_white/">
+          <a href="https://www.instagram.com/luan_anders0n/">
             <button className="card">
               <img className="icons" src={Instagram} alt="" />
               <h1>INSTAGRAM</h1>
